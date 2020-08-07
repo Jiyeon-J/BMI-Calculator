@@ -8,6 +8,14 @@ namespace BMI_Calculator
 {
     public static class Program
     {
+        /*The Author's name: Jiyeon Jeon
+        Author's student number: #301103064
+        Date last Modified: August 7, 2020
+        Program description: BMI Calculator App
+        Revision History: 1.0 created August 5, 2020 Jiyeon 
+        */
+
+
         public static SplashForm splashForm;
         public static BMICalculatorForm bmicalculatorForm;
         

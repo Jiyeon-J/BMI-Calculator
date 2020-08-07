@@ -53,7 +53,7 @@
             this.HeightLabel.AutoSize = true;
             this.HeightLabel.Location = new System.Drawing.Point(3, 0);
             this.HeightLabel.Name = "HeightLabel";
-            this.HeightLabel.Size = new System.Drawing.Size(136, 31);
+            this.HeightLabel.Size = new System.Drawing.Size(116, 50);
             this.HeightLabel.TabIndex = 1;
             this.HeightLabel.Text = "My Height";
             this.HeightLabel.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -76,7 +76,7 @@
             this.WeightLabel.AutoSize = true;
             this.WeightLabel.Location = new System.Drawing.Point(3, 50);
             this.WeightLabel.Name = "WeightLabel";
-            this.WeightLabel.Size = new System.Drawing.Size(141, 31);
+            this.WeightLabel.Size = new System.Drawing.Size(123, 50);
             this.WeightLabel.TabIndex = 3;
             this.WeightLabel.Text = "My Weight";
             // 
@@ -84,14 +84,14 @@
             // 
             this.HeightInput.Location = new System.Drawing.Point(155, 3);
             this.HeightInput.Name = "HeightInput";
-            this.HeightInput.Size = new System.Drawing.Size(138, 38);
+            this.HeightInput.Size = new System.Drawing.Size(138, 45);
             this.HeightInput.TabIndex = 4;
             // 
             // WeightInput
             // 
             this.WeightInput.Location = new System.Drawing.Point(155, 53);
             this.WeightInput.Name = "WeightInput";
-            this.WeightInput.Size = new System.Drawing.Size(138, 38);
+            this.WeightInput.Size = new System.Drawing.Size(138, 45);
             this.WeightInput.TabIndex = 5;
             // 
             // radioImperial
@@ -100,7 +100,7 @@
             this.radioImperial.Font = new System.Drawing.Font("Calibri", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.radioImperial.Location = new System.Drawing.Point(31, 40);
             this.radioImperial.Name = "radioImperial";
-            this.radioImperial.Size = new System.Drawing.Size(123, 37);
+            this.radioImperial.Size = new System.Drawing.Size(154, 45);
             this.radioImperial.TabIndex = 6;
             this.radioImperial.TabStop = true;
             this.radioImperial.Text = "Imperial";
@@ -112,7 +112,7 @@
             this.radioMetric.Font = new System.Drawing.Font("Calibri", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.radioMetric.Location = new System.Drawing.Point(166, 40);
             this.radioMetric.Name = "radioMetric";
-            this.radioMetric.Size = new System.Drawing.Size(104, 37);
+            this.radioMetric.Size = new System.Drawing.Size(130, 45);
             this.radioMetric.TabIndex = 7;
             this.radioMetric.TabStop = true;
             this.radioMetric.Text = "Metric";
@@ -140,7 +140,7 @@
             this.BMIResultLabel.AutoSize = true;
             this.BMIResultLabel.Location = new System.Drawing.Point(25, 38);
             this.BMIResultLabel.Name = "BMIResultLabel";
-            this.BMIResultLabel.Size = new System.Drawing.Size(62, 31);
+            this.BMIResultLabel.Size = new System.Drawing.Size(78, 39);
             this.BMIResultLabel.TabIndex = 9;
             this.BMIResultLabel.Text = "BMI";
             // 
@@ -150,7 +150,7 @@
             this.BMIResult.Location = new System.Drawing.Point(112, 34);
             this.BMIResult.Name = "BMIResult";
             this.BMIResult.ReadOnly = true;
-            this.BMIResult.Size = new System.Drawing.Size(181, 38);
+            this.BMIResult.Size = new System.Drawing.Size(181, 45);
             this.BMIResult.TabIndex = 10;
             // 
             // BMIScaleLabel
@@ -158,7 +158,7 @@
             this.BMIScaleLabel.AutoSize = true;
             this.BMIScaleLabel.Location = new System.Drawing.Point(17, 89);
             this.BMIScaleLabel.Name = "BMIScaleLabel";
-            this.BMIScaleLabel.Size = new System.Drawing.Size(82, 31);
+            this.BMIScaleLabel.Size = new System.Drawing.Size(103, 39);
             this.BMIScaleLabel.TabIndex = 11;
             this.BMIScaleLabel.Text = "Scale";
             // 
@@ -181,7 +181,7 @@
             this.BMIScale.Location = new System.Drawing.Point(112, 87);
             this.BMIScale.Name = "BMIScale";
             this.BMIScale.ReadOnly = true;
-            this.BMIScale.Size = new System.Drawing.Size(180, 38);
+            this.BMIScale.Size = new System.Drawing.Size(180, 45);
             this.BMIScale.TabIndex = 12;
             // 
             // ResetButton
@@ -204,7 +204,7 @@
             this.WelcomeLabel.ForeColor = System.Drawing.SystemColors.InfoText;
             this.WelcomeLabel.Location = new System.Drawing.Point(81, 5);
             this.WelcomeLabel.Name = "WelcomeLabel";
-            this.WelcomeLabel.Size = new System.Drawing.Size(159, 34);
+            this.WelcomeLabel.Size = new System.Drawing.Size(204, 39);
             this.WelcomeLabel.TabIndex = 0;
             this.WelcomeLabel.Text = "BMI Calculator";
             this.WelcomeLabel.TextAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -224,7 +224,7 @@
             // 
             // BMICalculatorForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(16F, 31F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(19F, 38F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.PowderBlue;
             this.ClientSize = new System.Drawing.Size(304, 441);
