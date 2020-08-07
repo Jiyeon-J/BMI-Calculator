@@ -43,6 +43,7 @@
             this.BMIScale = new System.Windows.Forms.TextBox();
             this.ResetButton = new System.Windows.Forms.Button();
             this.WelcomeLabel = new System.Windows.Forms.Label();
+            this.Exitbutton = new System.Windows.Forms.Button();
             this.tableLayoutPanel1.SuspendLayout();
             this.ResultGroup.SuspendLayout();
             this.SuspendLayout();
@@ -59,13 +60,15 @@
             // 
             // CalculateBMIButton
             // 
+            this.CalculateBMIButton.BackColor = System.Drawing.Color.Thistle;
+            this.CalculateBMIButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.CalculateBMIButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.CalculateBMIButton.Location = new System.Drawing.Point(87, 199);
             this.CalculateBMIButton.Name = "CalculateBMIButton";
             this.CalculateBMIButton.Size = new System.Drawing.Size(143, 39);
             this.CalculateBMIButton.TabIndex = 2;
             this.CalculateBMIButton.Text = "Calculate BMI";
-            this.CalculateBMIButton.UseVisualStyleBackColor = true;
+            this.CalculateBMIButton.UseVisualStyleBackColor = false;
             this.CalculateBMIButton.Click += new System.EventHandler(this.CalculateBMIButton_Click);
             // 
             // WeightLabel
@@ -183,12 +186,15 @@
             // 
             // ResetButton
             // 
-            this.ResetButton.Location = new System.Drawing.Point(202, 400);
+            this.ResetButton.BackColor = System.Drawing.Color.Thistle;
+            this.ResetButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.ResetButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.ResetButton.Location = new System.Drawing.Point(46, 398);
             this.ResetButton.Name = "ResetButton";
             this.ResetButton.Size = new System.Drawing.Size(102, 41);
             this.ResetButton.TabIndex = 13;
             this.ResetButton.Text = "Reset";
-            this.ResetButton.UseVisualStyleBackColor = true;
+            this.ResetButton.UseVisualStyleBackColor = false;
             this.ResetButton.Click += new System.EventHandler(this.ResetButton_Click);
             // 
             // WelcomeLabel
@@ -203,12 +209,26 @@
             this.WelcomeLabel.Text = "BMI Calculator";
             this.WelcomeLabel.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
+            // Exitbutton
+            // 
+            this.Exitbutton.BackColor = System.Drawing.Color.Thistle;
+            this.Exitbutton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Exitbutton.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.Exitbutton.Location = new System.Drawing.Point(170, 398);
+            this.Exitbutton.Name = "Exitbutton";
+            this.Exitbutton.Size = new System.Drawing.Size(75, 41);
+            this.Exitbutton.TabIndex = 14;
+            this.Exitbutton.Text = "Exit";
+            this.Exitbutton.UseVisualStyleBackColor = false;
+            this.Exitbutton.Click += new System.EventHandler(this.Exitbutton_Click);
+            // 
             // BMICalculatorForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(16F, 31F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.PowderBlue;
             this.ClientSize = new System.Drawing.Size(304, 441);
+            this.Controls.Add(this.Exitbutton);
             this.Controls.Add(this.ResetButton);
             this.Controls.Add(this.ResultGroup);
             this.Controls.Add(this.tableLayoutPanel1);
@@ -223,6 +243,7 @@
             this.Name = "BMICalculatorForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "BMI Calculator App";
+            this.Load += new System.EventHandler(this.BMICalculatorForm_Load);
             this.tableLayoutPanel1.ResumeLayout(false);
             this.tableLayoutPanel1.PerformLayout();
             this.ResultGroup.ResumeLayout(false);
@@ -248,6 +269,7 @@
         private System.Windows.Forms.TextBox BMIScale;
         private System.Windows.Forms.Button ResetButton;
         private System.Windows.Forms.Label WelcomeLabel;
+        private System.Windows.Forms.Button Exitbutton;
     }
 }
 

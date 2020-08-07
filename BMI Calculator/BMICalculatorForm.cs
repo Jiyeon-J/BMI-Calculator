@@ -37,11 +37,11 @@ namespace BMI_Calculator
                     {
                         BMIScale.Text = "Underweight";
                     }
-                    else if (18.5 <= result || result >= 24.9)
+                    else if (result >=18.5  && result <= 24.9)
                     {
                         BMIScale.Text = "Normal";
                     }
-                    else if (25 <= result || result >= 29.9)
+                    else if (result >= 25 && result <= 29.9)
                     {
                         BMIScale.Text = "Overweight";
                     }
@@ -58,15 +58,15 @@ namespace BMI_Calculator
                     {
                         BMIScale.Text = "Underweight";
                     }
-                    else if(18.5<=result || result>=24.9)
+                    else if (result >= 18.5 && result <= 24.9)
                     {
                         BMIScale.Text = "Normal";
                     }
-                    else if (25<=result || result>=29.9)
+                    else if (result >= 25 && result <= 29.9)
                     {
                         BMIScale.Text = "Overweight";
                     }
-                    else if(result > 30)
+                    else if (result > 30)
                     {
                         BMIScale.Text = "Obese";
                     }
@@ -87,6 +87,16 @@ namespace BMI_Calculator
             WeightInput.Text = "";
             BMIResult.Text = "";
             BMIScale.Text = "";
+        }
+
+        private void Exitbutton_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void BMICalculatorForm_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

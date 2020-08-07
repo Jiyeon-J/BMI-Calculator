@@ -37,7 +37,8 @@
             // SplashLabel
             // 
             this.SplashLabel.AutoSize = true;
-            this.SplashLabel.BackColor = System.Drawing.Color.LightSeaGreen;
+            this.SplashLabel.BackColor = System.Drawing.Color.DarkSlateGray;
+            this.SplashLabel.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.SplashLabel.Location = new System.Drawing.Point(34, 387);
             this.SplashLabel.Name = "SplashLabel";
             this.SplashLabel.Size = new System.Drawing.Size(255, 31);
