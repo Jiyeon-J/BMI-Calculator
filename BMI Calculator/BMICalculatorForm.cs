@@ -98,5 +98,10 @@ namespace BMI_Calculator
         {
 
         }
+
+        private void ResultGroup_Enter(object sender, EventArgs e)
+        {
+
+        }
     }
 }
