@@ -28,5 +28,10 @@ namespace BMI_Calculator
         {
             SplashFormtimer.Enabled = true;
         }
+
+        private void SplashLabel_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

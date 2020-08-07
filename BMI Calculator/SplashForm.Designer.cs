@@ -45,6 +45,7 @@
             this.SplashLabel.TabIndex = 0;
             this.SplashLabel.Text = "BMI Calculator App!";
             this.SplashLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.SplashLabel.Click += new System.EventHandler(this.SplashLabel_Click);
             // 
             // SplashFormtimer
             // 
